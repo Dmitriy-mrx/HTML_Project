@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="form.css" rel="stylesheet" type="text/css">
+  <title>Main</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Суши бар: <em> &laquo; Йокогама &raquo;</em></h1>
+    <img src="https://s.sakh.com/i/y/eda/b/5/a/a/b5aa6bcc57568f315f986f014cfd33a3ab58acdd.jpg">
+  </header>
+  <!-- <nav>
+    <div><a href="file:///home/dmitriy/html/index.html">Главная</a></div>
+    <div><a href="file:///home/dmitriy/html/indexSashimi.html">Сашими</a></div>
+    <div><a href="file:///home/dmitriy/html/indexSushi.html">Суши</a></div>
+    <div><a href="file:///home/dmitriy/html/indexRoll.html">Роллы</a></div>
+  </nav> -->
+  <main class="main">
+    <caption>
+      Заказ еды на вынос
+    </caption>
+    <form action="mailto:tyg" enctype="text/plain">
+      <p><label for="dishes">Что желаете заказать?</label>
+        <br>
+        <select name="dishes" id="dishes" size="6" multiple>
+          <optgroup label="Сашими">
+            <option value="unagi">Унаги</option>
+            <option value="chamachi">Хамачи</option>
+          </optgroup>
+          <optgroup label="Суши">
+            <option value="chukka">Чукка</option>
+            <option value="maguro">Магуро</option>
+            <option value="tobiko">Тобико</option>
+            <option value="fish">Рыба</option>
+          </optgroup>
+          <optgroup label="Роллы">
+            <option value="california">Калифорния</option>
+            <option value="mini">Миниролл</option>
+          </optgroup>
+        </select>
+      </p>
+      <p><label for="name">Как к Вам обращаться</label>
+        <br>
+        <input type="text" name="name" id="name" required>
+      </p>
+      <p><label for="phone">Ваш номер телефона</label>
+        <br>
+        <input type="phone" name="phone" id="phone" required>
+      </p>
+      <br>
+      <p><input type="submit" /></p>
+      <p><input type="reset" /></p>
+
+
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy;Самыу вкусные &laquo;суши&raquo; </p>
+  </footer>
+</body>
+
+</html>

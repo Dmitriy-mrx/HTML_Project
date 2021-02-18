@@ -1,0 +1,22 @@
+input[type=text] {
+  color: white;
+  font-size: 30px;
+  background-color: blue;
+  border-radius: 50%;
+  width: 135px;
+  height: 75;
+}
+
+form {
+  width: 400px;
+  padding: 0px 10px;
+  border: thin dotted darkgrey;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  font: bold 20px Verdana;
+  text-transform: uppercase;
+  width: 250px;
+  border: thin solid black;
+}

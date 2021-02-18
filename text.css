@@ -1,0 +1,37 @@
+body {
+  background-image:
+ url(https://eda.yandex/images/1368744/c10672e245be22438cdaf4e352cec941-1100x825.jpg),
+  url(https://www.bora.com/fileadmin/_processed_/7/c/csm_55_TeamEdition_Canada_Halloumi-Burger_aa6bbb24e1.jpg), 
+  url(https://www.gastronom.ru/binfiles/images/20191205/b543df50.jpg),
+  url(https://danilpub.ru/catalog/burger/units/burger-dakota/images/dakota-burger); 
+  background-size:100px, cover;
+  background-attachment: fixed;
+  background-position: 10px 8px 0px 0px;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  background-color: black;
+  font: bold 42px Verdana, sans-serif;
+   border-radius: 10px;
+  text-transform: capitalize;
+  cursor: no-drop;
+}
+ header h1 {
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 100px;
+ }
+header h1 {
+  background-image: radial-gradient(closest-side at 25px 50%, black,white,black,white,black);
+}
+ main {
+   border-left: 20px solid gray;
+   margin-top: 8px;
+   margin-right: 8px;
+   margin-left: 100px;
+   border-radius: 10px;
+ }
+ 

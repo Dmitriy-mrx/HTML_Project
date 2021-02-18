@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style2.css" rel="stylesheet" type="text/css">
+  <title>Main</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Суши бар: <em> &laquo; Йокогама &raquo;</em></h1>
+    <img src="https://s.sakh.com/i/y/eda/b/5/a/a/b5aa6bcc57568f315f986f014cfd33a3ab58acdd.jpg">
+  </header>
+  <!-- <nav>
+    <div><a href="file:///home/dmitriy/html/index.html">Главная</a></div>
+    <div><a href="file:///home/dmitriy/html/indexSashimi.html">Сашими</a></div>
+    <div><a href="file:///home/dmitriy/html/indexSushi.html">Суши</a></div>
+    <div><a href="file:///home/dmitriy/html/indexRoll.html">Роллы</a></div>
+  </nav> -->
+  <main class="main">
+    <caption>
+      Заказ столиков
+    </caption>
+    <form action="mailto:tyg" enctype="text/plain">
+      <p><label for="name">Как к Вам обращаться</label>
+        <br>
+        <input type="text" name="name" id="name" required placeholder="Maksim">
+      </p>
+      <p><label for="phone">Ваш номер телефона</label>
+        <br>
+        <input type="phone" name="phone" id="phone" required />
+      </p>
+      <p><label for="time">На какое время</label>
+        <br>
+        <input type="time" name="time" id="time" required value="18:00" />
+      </p>
+      <fieldset>
+        <legend>Укажите сведения о компании и о Вас</legend>
+        <p>
+          <label for="cnt">На сколько человек заказывать столик?</label>
+          <br>
+          <input type="radio" name="cnt" value="1">1
+          &nbsp; &nbsp; &nbsp;
+          <input type="radio" name="cnt" value="2">2
+          &nbsp; &nbsp; &nbsp;
+          <input type="radio" name="cnt" value="more">3 и более
+        </p>
+        <p><input type="checkbox" name="children" value="yes"> Среди клиентов будут дети?</p>
+      </fieldset>
+      <button type="submit"> <img
+          src="https://previews.123rf.com/images/aquir/aquir1909/aquir190906759/129838317-order-now-button-order-now-rounded-green-sign-order-now.jpg"
+          width="100" height="80"></button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy;Самыу вкусные &laquo;суши&raquo; </p>
+  </footer>
+</body>
+
+</html>

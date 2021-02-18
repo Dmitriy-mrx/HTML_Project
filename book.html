@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>HTML</h1>
+  <h4>Создаём первую веб страницу</h4>
+  <h4>
+    Теги языки ХТМл
+  </h4>
+  <h4>
+    Продолжаем изучать теги
+  </h4>
+  <h4>
+    Помещаем на веб-страницу изображение
+  </h4>
+  <h1>CSS</h1>
+  <h4>Оформление</h4>
+  <h4>Оформление страницы</h4>
+  <h4>Таблицы стилей</h4>
+  <h1>Как работает www</h1>
+  <h4>Клиенты и сервисы</h4>
+  <h4>Публикуем наш веб-сайт</h4>
+  <div> hello</div>
+  <style>
+    body {
+      font-weight: bold;
+      counter-reset: ch1;
+      text-align: center;
+    }
+
+    h1::before {
+      counter-increment: ch1;
+      content: counter(ch1) ". ";
+    }
+
+    h1 {
+      counter-reset: ch2;
+    }
+
+    h4::before {
+      counter-increment: ch2;
+      content: counter(ch1) '. 'counter(ch2) '. ';
+    }
+
+    div {
+      border: 6px dotted black;
+      /* padding: 10px; */
+      background-color: lightcoral;
+      margin-left: 30%;
+      margin-right: 30%;
+      color: white;
+      /* text-align: right; */
+      background-clip: content-box;
+    }
+  </style>
+
+</body>
+
+</html>

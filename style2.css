@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/Caviar_Dreams_Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams_Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url(./fonts/CaviarDreams_BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  background-image: linear-gradient(to bottom right, white 0%, grey 30%,lightgrey 100%);
+}
+.catalog h3 {
+  font-family: "Caviar Dreams";
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+
+}
+
+table.precelist th, table.precelist td {
+  border:green thin solid ;
+  padding: 4px;
+}
+table.precelist thead th {
+  color: white;
+  background-color: grey;
+}
+.main {
+  text-align:center;
+}
+
+.precelist a {
+  color: black;
+  text-decoration:none ;
+}
+.precelist td:last-child:not(:only-child) {
+  background-color: lightgray;
+  border: 0px;
+}
+.footer {
+  text-align: right;
+}
+
+table.catalog {
+  border-collapse: collapse;
+  }
+
+  table.catalog td {
+    border-top: black thin solid;
+    border-bottom: black thin solid;
+    padding: 10px;
+  }
+
+  table.catalog img {
+    width: 200px;
+  }
+.catalog h3::after {
+  content: ":";
+}
+.catalog {
+  width: 70%;
+}
+.catalog  tr{
+  width: 50%;
+}
+.catalog  tr img{
+  width: 100%;
+}
+nav {
+  float: left;
+  width: 150px;
+  margin: 10px 30px 10px 0;
+  padding: 10px;
+  border: black medium double;
+  border-radius: 10px;
+}
+
+.catalog tr:first-child td {
+   border-top: none;
+}
+
+.catalog tr:last-child td {
+  border-bottom:none;
+}
+
+.catalog  p:first-of-type::first-letter {
+  font-size: 24px;
+  color: red;
+  vertical-align: text-top;
+}
+
+.hh {
+  letter-spacing: 3px;
+}
+
+nav a:link, nav a:visited {
+  color: darkred;
+  }
+
+nav a:active, nav a:hover {
+  color: darksalmon;
+}
+
+form {
+  width: 400px;
+  padding: 0px 10px;
+  border: thin dotted darkgrey;
+  border-radius: 5px;
+}
+button  {
+  border-style: none;
+}
+
+input[type=phone] {
+  background-color:yellow;
+}
+input[type=text] {
+  border: 1px solid green;
+}
